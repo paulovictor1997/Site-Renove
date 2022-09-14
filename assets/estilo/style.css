@@ -6,7 +6,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: bold;
 }
 
 :root{
@@ -16,6 +16,14 @@
     --body-color:#C4C4C4;
     --menu:#101026;
     --hover:#0088d2;
+}
+
+body{
+    background-color: var(--body-color);
+}
+
+.description{
+    color: var(--dark-blue);
 }
 
 #container{
@@ -68,6 +76,44 @@ nav{
     color: var(--hover);
 }
 
+.area-2{
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-2 .image2{
+    margin-left: 50%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 50px;
+    margin: auto;
+}
+
+.content .renove{
+    width: 500px;
+    text-align: justify;
+}
+
+.renove .title-renove{
+    color: var(--dark-blue);
+}
+
+.renove button{
+   padding: 10px;
+   text-align: center;
+   width: 200px;
+   border-radius: 25px;
+   background-color: var(--gold);
+   color: var(--dark-blue);
+}
+
+
 @media(max-width:900px){
     .title{
         margin-top: 30%;
@@ -112,4 +158,12 @@ nav{
     .close-button.hidden{
         display: none;
     }
+
+    .area-2 .image2{
+        margin: auto;
+    }
+
+   .area-2 .image{
+        display: none;
+   }
 }
