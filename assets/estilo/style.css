@@ -35,6 +35,18 @@ body{
     margin-bottom: 30%;
 }
 
+.title2{
+    color: var(--dark-blue);
+}
+
+.button-details{
+    width:300px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--gold);
+    color: var(--dark-blue);
+}
+
 nav{
     width: 100%;
     padding: 10px 20px;
@@ -104,6 +116,13 @@ nav{
     color: var(--dark-blue);
 }
 
+.border{
+    width: 80px;
+    border-bottom: 1px solid #DA8824!important;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+
 .renove button{
    padding: 10px;
    text-align: center;
@@ -113,6 +132,74 @@ nav{
    color: var(--dark-blue);
 }
 
+
+.picture{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-background{
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url('./../../img/Imagem_Respiro02.png');
+    margin-top: 5%;
+}
+
+.img-background  .img3{
+    margin-left: 50%;
+    margin-top: 25%;
+}
+
+.description2{
+    width: 590px;
+    text-align: center;
+    margin: auto;
+}
+.description2 .aspas1{
+    margin-right: 80%;
+}
+
+.description2 .aspas2{
+    margin-left: 80%;
+}
+
+.area-3{
+    width: 100%;
+    background-color: var(--dark-blue);
+    margin-top: 5%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area-3 .gera-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.area-3 .gera-list .list1{
+    padding: 10px;
+    text-align: center;
+}
+
+.area-3 .gera-list .list2{
+    padding: 10px;
+    text-align: center;
+}
+
+.details{
+    color: var(--white);
+    margin-top: 10%;
+    width: 500px;
+    text-align: left;
+}
 
 @media(max-width:900px){
     .title{
@@ -166,4 +253,39 @@ nav{
    .area-2 .image{
         display: none;
    }
+
+   .content .renove{
+    width: 300px;
+    text-align: justify;
+    }
+
+    .picture .img1{
+        width: 500px;
+    }
+    
+    .img-background{
+        margin-left: 30%;
+       
+    }
+    
+    .description2{
+        width: 350px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .area-3{
+        width: 100%;
+    }
+    
+    .area-3 .gera-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .element{
+        display: none;
+    }
 }
