@@ -180,7 +180,7 @@ nav{
 .area-3 .gera-list{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 15px;
 }
 
@@ -194,11 +194,40 @@ nav{
     text-align: center;
 }
 
+
 .details{
     color: var(--white);
     margin-top: 10%;
-    width: 500px;
+    width: 550px;
     text-align: left;
+    font-size: 0.9em;
+}
+
+.area-4{
+    width: 100%;
+    background-image: url('../../img/Banner01.png');
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.area-4 .title-area{
+    width: 540px;
+    text-align: center;
+    margin: auto;
+    color: var(--white);
+}
+
+.title-area span{
+    background-color: var(--dark-blue);
+    padding: 5px;
+}
+
+.title-area .aspas-title-1{
+    margin-right: 80%;
+}
+
+.title-area .aspas-title-2{
+    margin-left: 80%;
 }
 
 @media(max-width:900px){
