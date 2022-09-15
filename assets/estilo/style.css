@@ -317,4 +317,23 @@ nav{
     .element{
         display: none;
     }
+
+    .area-4{
+        width: 100%;
+    }
+
+    .area-4 .title-area{
+        width: 400px;
+        text-align: center;
+        margin: auto;
+        color: var(--white);
+    }
+
+    .details{
+        color: var(--white);
+        margin-top: 10%;
+        width: 350px;
+        text-align: left;
+        font-size: 0.9em;
+    }
 }
