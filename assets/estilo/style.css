@@ -143,17 +143,17 @@ nav{
     justify-content: center;
     padding: 10px;
 }
-
+/*
 .img-background{
-    /*
+    /
     width: 400px;
     height: 400px;
     background-repeat: no-repeat;
     background-image: url('./../../img/Imagem_Respiro02.png');
     margin-top: 5%;
-    */
+    
 }
-/*
+
 .img-background  .img3{
     margin-left: 50%;
     margin-top: 25%;
