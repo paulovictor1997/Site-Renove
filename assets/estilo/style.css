@@ -96,10 +96,13 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position:relative;
 }
 
 .area-2 .image2{
-    margin-left: 50%;
+    position: absolute;
+    right: 175px;
+    top: -96px;
 }
 .content{
     display: flex;
@@ -165,11 +168,11 @@ nav{
     margin: auto;
 }
 .description2 .aspas1{
-    margin-right: 80%;
+    margin-right: 90%;
 }
 
 .description2 .aspas2{
-    margin-left: 80%;
+    margin-left: 90%;
 }
 
 .area-3{
@@ -180,8 +183,14 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    position:relative;
 }
 
+.area-3 .element{
+    position:absolute;
+    left: 175px;
+    bottom: 80%;
+}
 
 .area-3 .gera-list{
     width: 100%;
@@ -231,11 +240,11 @@ nav{
 }
 
 .title-area .aspas-title-1{
-    margin-right: 80%;
+    margin-right: 90%;
 }
 
 .title-area .aspas-title-2{
-    margin-left: 80%;
+    margin-left: 90%;
 }
 
 .area-5{
@@ -323,10 +332,6 @@ nav{
         display: none;
     }
 
-    .area-2 .image2{
-        margin: auto;
-    }
-
    .area-2 .image{
         display: none;
    }
@@ -349,6 +354,11 @@ nav{
         width: 350px;
         text-align: center;
         margin: auto;
+    }
+
+    .area-2 .image2{
+        left: 53%;
+        top:  -18%;
     }
 
     .area-3{
