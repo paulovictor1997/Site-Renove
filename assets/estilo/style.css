@@ -75,6 +75,8 @@ nav{
     list-style: none;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 70%;
 }
 
 .menu li a{
@@ -139,20 +141,24 @@ nav{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 .img-background{
+    /*
     width: 400px;
     height: 400px;
     background-repeat: no-repeat;
     background-image: url('./../../img/Imagem_Respiro02.png');
     margin-top: 5%;
+    */
 }
-
+/*
 .img-background  .img3{
     margin-left: 50%;
     margin-top: 25%;
 }
+ */
 
 .description2{
     width: 590px;
@@ -275,6 +281,10 @@ nav{
     .navbar .open-button,.close-button{
         display: block;
         z-index: 999;
+    }
+
+    .menu{
+        padding: 20%;
     }
 
     .navbar .menu{
