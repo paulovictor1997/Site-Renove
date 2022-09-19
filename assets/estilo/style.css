@@ -282,6 +282,100 @@ nav{
     margin-left: 70%;
 }
 
+.area-6{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-area{
+    border: 1px solid darkblue;   
+    padding: 20px;
+}
+
+form{
+    color: var(--dark-blue);
+    padding: 10px;
+}
+
+textarea ::placeholder{
+    color: var(--dark-blue);
+}
+
+form ::placeholder{
+    color: var(--dark-blue);
+    border:  darkblue;        
+}
+
+.information{
+    padding: 10px;
+    margin-top: 20%;
+}
+
+.information h5 ,p{
+    color: var(--dark-blue);
+}
+
+.contatos{
+    padding: 55px;
+    height: 500px;
+    background-color: var(--gold);
+}
+
+button{
+    background-color:var(--dark-blue);
+    color: var(--white);
+    padding: 5px;
+    width: 100px;
+    margin-top: 5%;
+}
+
+footer{
+    width: 100%;
+    background-color: var(--dark-blue);
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-informations{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+.footer-contacts{
+    width: 300px;
+    display: flex;
+}
+
+.footer-contacts .address{
+    color: var(--white);
+}
+
+.links{
+    padding: 15px;  
+    list-style: none;
+    width: 300px;
+}
+
+.links .footer-links{
+    text-decoration: none;
+    color: var(--white);
+}
+
+
+.border-footer{
+    border: 1px solid gold;
+    width: 100%;
+}
+
 
 @media(max-width:900px){
     .title{
@@ -416,5 +510,43 @@ nav{
     .elementoImg2{
         display: none;
     }
+
+    .area-6{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .area-6 .contatos{
+        height: 400px;
+    }
+
+    .footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-links{
+        display: none;
+    }
     
+    .footer-informations{
+        width: 100%;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-contacts .address{
+        color: var(--white);
+        text-align: center;
+    }
 }

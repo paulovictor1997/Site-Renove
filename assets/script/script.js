@@ -20,6 +20,7 @@ function closeMenu(){
     menu.classList.remove('show');
 }
 
+//Menu mudando de cor quando rola a tela
 
 window.onscroll = function() {scrollFunction()};
 
