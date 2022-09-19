@@ -192,7 +192,7 @@ nav{
     bottom: 80%;
 }
 
-.area-3 .gera-list{
+.geral-list{
     width: 100%;
     display: flex;
     align-items: center;
@@ -200,24 +200,22 @@ nav{
     gap: 15px;
 }
 
-.area-3 .gera-list .list1{
-    padding: 10px;
-    text-align: center;
+.title-list{
+    color: var(--white);
+    width: 300px;
 }
 
-.area-3 .gera-list .list2{
-    padding: 10px;
-    text-align: center;
+.border-list{
+    width: 100px;
+    border: 1px solid gold;
 }
-
 
 .details{
+    margin-top: 3%;
+    width: 500px;
     color: var(--white);
-    margin-top: 5%;
-    width: 550px;
-    text-align: left;
-    font-size: 0.9em;
 }
+
 
 .area-4{
     width: 100%;
@@ -256,14 +254,18 @@ nav{
     padding: 20px;
     color: var(--white);
     text-align: center;
-    width:230px;
+    width:250px;
     height: 295px;
     margin: auto;
     background-image: url('../../img/Elemento.png');
+    position: relative;
 }
 
 .area-5 header h4{
-    margin-top: 80%;
+    margin-top: 60%;
+    position: absolute;
+    right: -55%;
+    width: 300px;
 }
 
 .area-5 .content-5{
@@ -279,7 +281,9 @@ nav{
 }
 
 .content-5 .paragraph .elementoImg2{
-    margin-left: 70%;
+    margin-top: 5%;
+    left:80%;
+    position: absolute;
 }
 
 .area-6{
@@ -288,6 +292,8 @@ nav{
     padding: 50px;
     align-items: center;
     justify-content: center;
+    margin-top: 15%;
+    
 }
 
 .form-area{
@@ -298,6 +304,22 @@ nav{
 form{
     color: var(--dark-blue);
     padding: 10px;
+}
+
+form input{
+    background-color: transparent;
+    border-color: #00416B;
+    padding: 10px;
+}
+
+.text-area{
+    margin-top: 5px;
+}
+
+.text-area textarea{
+   width:425px;
+   background-color: transparent;
+   padding: 10px;
 }
 
 textarea ::placeholder{
@@ -322,6 +344,7 @@ form ::placeholder{
     padding: 55px;
     height: 500px;
     background-color: var(--gold);
+
 }
 
 button{
@@ -365,7 +388,7 @@ footer{
     width: 300px;
 }
 
-.links .footer-links{
+.footer-links{
     text-decoration: none;
     color: var(--white);
 }
@@ -459,11 +482,13 @@ footer{
         width: 100%;
     }
     
-    .area-3 .gera-list{
+    .geral-list{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    }
+
+    .geral-list img{
+        width: 300px;
     }
 
     .element{
@@ -494,6 +519,21 @@ footer{
         background-color: var(--dark-blue);
     }
 
+    .area-5 header{
+        width:210px;
+        height: 295px;
+        margin: auto;
+        background-image: url('../../img/Elemento.png');
+        position: relative;
+    }
+    
+    .area-5 header h4{
+        margin-top: 70%;
+        position: absolute;
+        right: 5px;
+        width: 200px;
+    }
+
     .area-5 .content-5{
         display: flex;
         flex-direction: column-reverse;
@@ -516,6 +556,19 @@ footer{
         align-items: center;
         flex-direction: column;
     }
+
+    .contato-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    
 
     .area-6 .contatos{
         height: 400px;
