@@ -1,4 +1,4 @@
-//Menu mudando de cor quando rola a tela
+// Aqui é quando menu mudando de cor quando rola a tela.
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -6,6 +6,6 @@ function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     scroll.style.backgroundColor = '#00416B';
   } else {
-    scroll.style.backgroundColor = '#e0dddd52';
+    scroll.style.backgroundColor = 'transparent';
   }
 }
