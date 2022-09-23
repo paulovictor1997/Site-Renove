@@ -210,11 +210,11 @@ nav{
     background-image: url('../../img/Banner01.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px;
+    padding: 15px;
 }
 
 .area-4 .title-area{
-    max-width: 600px;
+    width: 600px;
     text-align: center;
     margin: auto;
     color: var(--white);
@@ -452,17 +452,19 @@ footer{
 
 .link-footer{
     width: 350px;
+    display: flex;
+    flex-direction: column;
 }
 
-.link-footer ul {
-    list-style: none;
-}
-
-.link-footer ul li a {
+.link-footer a {
+    margin-top: 7px;
     text-decoration:  none;
     color: var(--white);
 }
 
+.link-footer a:hover{
+    text-decoration: underline;
+}
 
 .footer-contacts .address{
     color: var(--white);
@@ -473,6 +475,7 @@ footer{
     border: 1px solid gold;
     width: 100%;
 }
+
 
 
 @media(max-width:900px){
